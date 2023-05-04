@@ -7,7 +7,6 @@ const About = () => {
                 <p className="text-2xl">About Page</p>
                 <p className="text-xs">Coming Soon</p>
                 <Link href="/" className="text-sm text-blue-500 hover:text-blue-300">Home</Link>
-
             </div>
         </div>
     )
