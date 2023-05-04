@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  	@apply text-gray-700;
+}
+
+@layer components {
+	.container {
+		@apply max-w-6xl m-auto px-2 md:px-4;
+	}
+
+	.text-input {
+		@apply border outline-none bg-gray-50 border-gray-300  hover:outline-4 rounded-md p-2 text-sm focus-visible:ring-0 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300
+	}
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

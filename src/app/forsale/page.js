@@ -3,7 +3,9 @@ import Link from "next/link";
 const ForSale = () => {
 
   return (
-    <div className="bg-blue-100 p-4 h-screen w-full flex items-center justify-center">
+    <div className="bg-blue-100 p-4 h-screen w-full flex flex-col items-center justify-center">
+      <Link href="/" className="text-sm text-blue-500 hover:text-blue-300 p-4">Home</Link>
+
       <p className="text-4xl">Games for Sale</p>
       <ul>
         <li className="text-sm pt-4 text-blue-500 hover:text-blue-300">
@@ -22,7 +24,6 @@ const ForSale = () => {
           </Link>
         </li>
       </ul>
-      <Link href="/" className="text-sm text-blue-500 hover:text-blue-300">Home</Link>
     </div>
   )
 }

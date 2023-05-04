@@ -3,7 +3,9 @@ import Link from "next/link";
 const Backlog = () => {
 
   return (
-    <div className="bg-yellow-100 p-4 h-screen w-full flex items-center justify-center">
+    <div className="bg-yellow-100 p-4 h-screen w-full flex flex-col items-center justify-center">
+      <Link href="/" className="text-sm text-blue-500 hover:text-blue-300 p-3">Home</Link>
+
       <p className="text-4xl">Projects in our Backlog</p>
       <ul>
         <li className="text-sm pt-4">Vegas, Gottlieb 1990</li>
@@ -15,7 +17,6 @@ const Backlog = () => {
         <li className="text-sm pt-4">Fathom, Bally 1981</li>
         <li className="text-sm pt-4">Mr. & Mrs. Pac-Man, Bally 1982</li>
       </ul>
-      <Link href="/" className="text-sm text-blue-500 hover:text-blue-300">Home</Link>
     </div>
   )
 }
