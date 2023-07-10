@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 const About = () => {
-    const title = 'About Page';
-    return (
-        <div className="bg-red-100 p-4 h-screen w-full flex items-center justify-center">
-            <div className="text-center">
-                <p className="text-2xl">{title}</p>
-                <p className="text-xs">Coming Soon</p>
-                <Link href="/" className="text-sm text-blue-500 hover:text-blue-300">Home</Link>
-            </div>
-        </div>
-    );
+  const title = 'About Page';
+  return (
+    <div className="container py-6">
+      <div className="bg-gray-100 rounded-lg md:mx-16 p-4 md:flex md:justify-center md:flex-col text-center">
+        <p className="text-2xl">{ title }</p>
+        <br/>
+        <p className="text-sm pt-4">contact@pinballzdeep.com</p>
+      </div>
+    </div>
+  );
 };
 
 export default About;
