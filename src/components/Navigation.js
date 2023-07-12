@@ -8,7 +8,7 @@ const Navigation = ({ metadata }) => {
     { url: '', title: 'Home'},
     { url: 'about', title: 'About'},
     { url: 'forsale', title: 'For Sale' },
-    // { url: 'sold', title: 'Sold' },
+    { url: 'sold', title: 'Sold' },
     { url: 'backlog', title: 'Backlog' },
   ];
 

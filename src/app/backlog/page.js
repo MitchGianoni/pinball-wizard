@@ -10,7 +10,7 @@ const Backlog = () => {
         <br/>
         <div>
           <p className="text-sm pt-4">All of the following are available unless otherwise noted. Please email if you
-            have any questions </p>
+            have any questions. </p>
           <p className="text-sm pt-4">contact@pinballzdeep.com</p>
         </div>
         <div className="flow-root">
@@ -38,13 +38,13 @@ const Backlog = () => {
           <div className="float-right">
             <p className="text-4xl">EM Games</p>
             <ul>
-              <li className="text-sm pt-4">Pro-Football - Gottlieb 1973*</li>
-              <li className="text-sm pt-4">Big Show - Bally 1974*</li>
-              <li className="text-sm pt-4">Safari - Bally 1968*</li>
-              <li className="text-sm pt-4">Freedom - Bally 1976*</li>
-              <li className="text-sm pt-4">Spanish Eyes - Williams 1972*</li>
-              <li className="text-sm pt-4">Shangri-La - Williams 1967*</li>
-              <li className="text-sm pt-4">Old Chicago - Bally 1976*</li>
+              <li className="text-sm pt-4">Pro-Football - Gottlieb 1973</li>
+              <li className="text-sm pt-4">Big Show - Bally 1974</li>
+              <li className="text-sm pt-4">Safari - Bally 1968</li>
+              <li className="text-sm pt-4">Freedom - Bally 1976</li>
+              <li className="text-sm pt-4">Spanish Eyes - Williams 1972</li>
+              <li className="text-sm pt-4">Shangri-La - Williams 1967</li>
+              <li className="text-sm pt-4">Old Chicago - Bally 1976</li>
             </ul>
           </div>
         </div>

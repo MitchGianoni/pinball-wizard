@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logoPic from '../../pbd_logo.png'
+import logoPic from '../../public/pbd_logo.png'
 
 const Home = () => {
   const handleSubmit = e => {
