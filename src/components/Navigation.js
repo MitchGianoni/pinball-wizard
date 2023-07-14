@@ -12,14 +12,14 @@ const Navigation = ({ metadata }) => {
     { url: 'backlog', title: 'Backlog' },
   ];
 
-  const test = () => {
-    // check npm run dev console to see console log from /api/hello
-    fetch('/api/hello')
-  }
+  // const test = () => {
+  //   // check npm run dev console to see console log from /api/hello
+  //   fetch('/api/hello')
+  // }
   return (
-    <div className="container py-2 w-full flex justify-between items-center border-b">
+    <div className="container py-2 w-full sm:flex justify-between items-center border-b">
 
-      <h1 className="text-2xl"><Link href="/">{ metadata.title }</Link></h1>
+      <h1 className="text-2xl pb-4 sm:p-0"><Link href="/">{ metadata.title }</Link></h1>
 
       <div className="flex space-x-4 items-center">
         <ul className="flex space-x-2">

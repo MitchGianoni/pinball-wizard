@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logoPic from '../../public/pbd_logo.png'
+// import logoPic from '../../public/pbd_logo.png'
 
 const Home = () => {
   const handleSubmit = e => {
@@ -16,7 +16,9 @@ const Home = () => {
       <div className="bg-gray-100 rounded-lg md:mx-16 p-4 md:flex md:justify-center md:flex-col">
 
         <div className="">
-          <Image className="mx-auto" src={ logoPic } width={ 400 } height={ 400 } alt="Pinballz Deep"/>
+          {/* <Image className="mx-auto" src={ logoPic } width={ 400 } height={ 400 } alt="Pinballz Deep"/> */}
+          <img className="mx-auto max-w-md" src="/pbd_logo.png"  alt="Pinballz Deep"/>
+
           {/*<p className="text-3xl text-center">Restorations</p>*/ }
           {/*<p className="text-lg pt-4">We restore old rusty pinball machines and turn them back into youthful shiney games</p>*/ }
         </div>
