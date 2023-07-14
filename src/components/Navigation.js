@@ -22,7 +22,7 @@ const Navigation = ({ metadata }) => {
       <h1 className="text-2xl"><Link href="/">{ metadata.title }</Link></h1>
 
       <div className="flex space-x-4 items-center">
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-2">
           { navLinks.map(link => (
             <li key={ link.url }>
               <Link href={ link.url }>

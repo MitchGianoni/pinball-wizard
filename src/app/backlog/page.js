@@ -5,7 +5,7 @@ const Backlog = () => {
 
   return (
     <div className="container py-6">
-      <div className="bg-gray-100 rounded-lg md:mx-16 p-4 md:flex md:justify-center md:flex-col text-center ">
+      <div className="bg-gray-100 rounded-lg md:mx-16 p-4 md:flex md:justify-center md:flex-col text-center">
         <p className="text-4xl">{ title }</p>
         <br/>
         <div>
@@ -13,8 +13,10 @@ const Backlog = () => {
             have any questions. </p>
           <p className="text-sm pt-4">contact@pinballzdeep.com</p>
         </div>
-        <div className="flow-root">
-          <div className="float-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+          <div>
+            <br/>
+            <p className="text-4xl">SS Games</p>
             <ul>
               <li className="text-sm pt-4">Mousin&apos; Around - Bally 1989</li>
               <li className="text-sm pt-4">Vegas - Gottlieb 1990</li>
@@ -35,7 +37,8 @@ const Backlog = () => {
               <li className="text-sm pt-4">Doctor Who - Bally 1992</li>
             </ul>
           </div>
-          <div className="float-right">
+          <div>
+            <br/>
             <p className="text-4xl">EM Games</p>
             <ul>
               <li className="text-sm pt-4">Pro-Football - Gottlieb 1973</li>
