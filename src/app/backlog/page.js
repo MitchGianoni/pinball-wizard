@@ -17,40 +17,44 @@ const Backlog = () => {
           <div>
             <br/>
             <p className="text-4xl">SS Games</p>
-            <ul>
-              <li className="text-sm pt-4">Mousin&apos; Around - Bally 1989</li>
-              <li className="text-sm pt-4">Vegas - Gottlieb 1990</li>
-              <li className="text-sm pt-4">Space Shuttle - Williams 1984</li>
-              <li className="text-sm pt-4">Captain Hook - Game Plan 1985</li>
-              <li className="text-sm pt-4">Fathom - Bally 1981</li>
-              <li className="text-sm pt-4">Demolition Man - Williams 1994</li>
-              <li className="text-sm pt-4">F-14 Tomcat - Williams 1987</li>
-              <li className="text-sm pt-4">Terminator 2 - Williams 1991</li>
-              <li className="text-sm pt-4">Party Zone - Bally 1991</li>
-              <li className="text-sm pt-4">Popeye Saves The Earth - Bally 1994</li>
-              <li className="text-sm pt-4">WWF Royal Rumble - Data East 1994</li>
-              <li className="text-sm pt-4">Mario Andretti Racing - Gottlie 1995</li>
-              <li className="text-sm pt-4">Jack*Bot - Williams 1995</li>
-              <li className="text-sm pt-4">Taxi - Williams 1988</li>
-              <li className="text-sm pt-4">Police Force - Williams 1989</li>
-              <li className="text-sm pt-4">Rescue 911 - Gottlieb 1994</li>
-              <li className="text-sm pt-4">Doctor Who - Bally 1992</li>
+            <ul className="text-sm pt-4">
+              <li>Mousin&apos; Around - Bally 1989</li>
+              <li>Vegas - Gottlieb 1990</li>
+              <li>Space Shuttle - Williams 1984</li>
+              <li>The Simpson&apos;s Pinball Party - Stern 2003*</li>
+              <li>Captain Hook - Game Plan 1985</li>
+              <li>Fathom - Bally 1981</li>
+              <li>Demolition Man - Williams 1994</li>
+              <li>F-14 Tomcat - Williams 1987</li>
+              <li>Terminator 2 - Williams 1991</li>
+              <li>Party Zone - Bally 1991</li>
+              <li>Popeye Saves The Earth - Bally 1994</li>
+              <li>WWF Royal Rumble - Data East 1994</li>
+              <li>Mario Andretti Racing - Gottlie 1995</li>
+              <li>Jack*Bot - Williams 1995</li>
+              <li>Taxi - Williams 1988</li>
+              <li>Police Force - Williams 1989</li>
+              <li>Rescue 911 - Gottlieb 1994</li>
+              <li>Doctor Who - Bally 1992</li>
+              <li>Excalibur - Gottlieb 1988</li>
             </ul>
           </div>
           <div>
             <br/>
             <p className="text-4xl">EM Games</p>
-            <ul>
-              <li className="text-sm pt-4">Pro-Football - Gottlieb 1973</li>
-              <li className="text-sm pt-4">Big Show - Bally 1974</li>
-              <li className="text-sm pt-4">Safari - Bally 1968</li>
-              <li className="text-sm pt-4">Freedom - Bally 1976</li>
-              <li className="text-sm pt-4">Spanish Eyes - Williams 1972</li>
-              <li className="text-sm pt-4">Shangri-La - Williams 1967</li>
-              <li className="text-sm pt-4">Old Chicago - Bally 1976</li>
+            <ul className="text-sm pt-4">
+              <li>Pro-Football - Gottlieb 1973</li>
+              <li>Big Show - Bally 1974</li>
+              <li>Safari - Bally 1968</li>
+              <li>Freedom - Bally 1976</li>
+              <li>Spanish Eyes - Williams 1972</li>
+              <li>Shangri-La - Williams 1967</li>
+              <li>Old Chicago - Bally 1976</li>
             </ul>
           </div>
         </div>
+        <br/>
+        <p>* = Reserved</p>
       </div>
     </div>
   );
