@@ -17,7 +17,7 @@ const Home = () => {
 
         <div className="">
           {/* <Image className="mx-auto" src={ logoPic } width={ 400 } height={ 400 } alt="Pinballz Deep"/> */}
-          <img className="mx-auto max-w-md" src="/pbd_logo.png"  alt="Pinballz Deep"/>
+          <img className="mx-auto max-w-md w-full" src="/pbd_logo.png"  alt="Pinballz Deep"/>
 
           {/*<p className="text-3xl text-center">Restorations</p>*/ }
           {/*<p className="text-lg pt-4">We restore old rusty pinball machines and turn them back into youthful shiney games</p>*/ }

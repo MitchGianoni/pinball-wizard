@@ -9,6 +9,7 @@ const nextConfig = {
         ignoreDuringBuilds: true,
     },
     output: 'export',
+    exportTrailingSlash: true,
 };
 
 module.exports = nextConfig;

@@ -17,16 +17,14 @@ const Navigation = ({ metadata }) => {
   //   fetch('/api/hello')
   // }
   return (
-    <div className="container py-2 w-full sm:flex justify-between items-center border-b">
-
-      <h1 className="text-2xl pb-4 sm:p-0"><Link href="/">{ metadata.title }</Link></h1>
-
-      <div className="flex space-x-4 items-center">
+    <div className="container py-2 w-full sm:flex justify-center border-b">
+      <div className="flex space-x-4 justify-center">
         <ul className="flex space-x-2">
+          -<span>&nbsp;</span>
           { navLinks.map(link => (
             <li key={ link.url }>
               <Link href={ link.url }>
-                { link.title }
+                { link.title } -
               </Link>
             </li>
           )) }
